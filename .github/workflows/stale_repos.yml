@@ -27,3 +27,4 @@ jobs:
         title: Stale repository report
         content-filepath: ./stale_repos.md
         assignees: seilorjunior
+        token: ${{ secrets.GH_TOKEN }}
